@@ -1,0 +1,36 @@
+importClassesFrom(HIV.db, HivFeature)
+importMethodsFrom(HIV.db, getHXB2Coordinates,getName)
+
+#importClassesFrom(pepStat, peptideSet)
+
+
+importClassesFrom(GenomeGraphs, gdObject,GenomeAxis,GenericArray)
+importFrom(GenomeGraphs, DisplayPars
+			,makeSmoothing,makeSegmentation,makeGenericArray,makeRectangleOverlay
+			,makeTitle)
+importMethodsFrom(GenomeGraphs, getPar,drawGD,getSize,setPar)
+import(IRanges)
+
+#importClassesFrom(methods, character, integer, numeric)
+#importMethodsFrom(methods, show)
+#importFrom(methods, "@<-", new)
+
+
+
+exportClasses(GenericAnno,PepAxis,ProbeSequence,GenericArray,gdObject,GenomeAxis)
+exportMethods(drawGD
+			,drawLegend
+			,getProbeStart
+			,show
+			,getIndex
+			,getAnnotations
+			,isLegend
+			,getNC
+			,getIntensity
+			,getProbeSequence)
+			
+export(pdPlot,makeGenericAnno,makePepAxis,makeProbeSequence,DisplayPars
+		,makeSmoothing,makeSegmentation,makeGenericArray,makeRectangleOverlay
+		,makeTitle)
+
+

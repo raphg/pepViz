@@ -1,0 +1,33 @@
+%\VignetteIndexEntry{The HIV Visualization package users guide}
+%\VignetteDepends{HIViz}
+%\VignetteKeywords{Visualizations, Hxb2,GenomeGraphs}
+%\VignettePackage{HivAnno}
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{color, pdfcolmk}
+\usepackage[authoryear,round]{natbib}
+\bibliographystyle{plainnat}
+
+\newcommand{\scscst}{\scriptscriptstyle}
+\newcommand{\scst}{\scriptstyle}
+
+\author{Dave Swan\footnote{dswan@fhcrc.org} and Raphael
+  Gottardo\footnote{raphael.gottardo@ircm.qc.ca}}
+
+\begin{document}
+\title{HIV Annotation Visualization Support\\ The HIViz package.}
+\maketitle
+
+
+
+\textnormal {\normalfont}
+A step-by-step guide to displaying HIV annotations using the HIViz, HIVdb and GenomeGraphs packages in R
+
+\tableofcontents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+
+\part{Licensing}
+\end{document}
