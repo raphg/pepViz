@@ -30,9 +30,9 @@
 			},
 			stop("Unknown coordinate specification in HighlightRegion."))
 	
-	color <- rgb(t(col2rgb(getPar(hr,"color"))/255), alpha = getPar(hr, "alpha"))
+#	color <- rgb(t(col2rgb(getPar(hr,"color"))/255), alpha = getPar(hr, "alpha"))
 	grid.rect(ss, y0, width = (ee - ss), height = height
-			, gp = gpar(fill=color, lwd = getPar(hr,"lwd"), lty = getPar(hr,"lty")),
+			, gp = gpar(fill=getPar(hr,"fill"),color=getPar(hr,"color"), alpha = getPar(hr, "alpha"), lwd = getPar(hr,"lwd"), lty = getPar(hr,"lty")),
 			just=c("left", "bottom"))
 	popViewport(1)
 	popViewport(1)
