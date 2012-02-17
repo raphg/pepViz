@@ -475,10 +475,12 @@ setMethod("drawGD", signature("GenericAnno"), function(gdObject, minBase, maxBas
 #	isTips<- getPar(gdObject, "isTips")#gdObject@isTips
 	idCex<- getPar(gdObject, "idCex")
 	## abstract this operation for all functions :
-	xlim <- getPar(gdObject, "xlim")
-	ylim <- getPar(gdObject, "ylim")
-	if (is.null(xlim)) xlim <- c(minBase, maxBase)
-	if (is.null(ylim)) ylim <- c(-3, 3)
+#	xlim <- getPar(gdObject, "xlim")
+#	ylim <- getPar(gdObject, "ylim")
+#	if (is.null(xlim)) 
+		xlim <- c(minBase, maxBase)
+#	if (is.null(ylim)) 
+		ylim <- c(-3, 3)
 #	  browser()
 			
 	horiz = getPar(gdObject, "horiz")#getHoriz(gdObject)

@@ -13,7 +13,7 @@ setClass("GenericAnno", contains = "gdObject",
                    lwd = 1,
                    size = 1,
 				   alpha=1,
-                   type = "point",
+#                   type = "point",
 					horiz = TRUE,
 					dna = FALSE,
 					showID = TRUE,
@@ -22,8 +22,9 @@ setClass("GenericAnno", contains = "gdObject",
 					idCex=0.5,
 #					showSeq=FALSE,
 					trackGap=0.1,
-					isLegend=FALSE,
-					isTips=TRUE)
+					isLegend=FALSE
+#					,isTips=TRUE
+			)
 		   		   )
          );
 		 
@@ -102,7 +103,7 @@ setClass("ProbeSequence", contains = "gdObject",
 						size = 1,
 						idCex =1,
 						isLegend=FALSE,
-						type="sequence"
+#						type="sequence"
 						,trackGap=0.1
 				)
 		)
