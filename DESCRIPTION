@@ -1,7 +1,7 @@
 Package: pepViz
 Type: Package
 Title: Peptide Annotation and Data Visualization using GenomeGraphs
-Version: 0.99.0
+Version: 0.99.1
 Author: Mike Jiang,Raphael Gottardo 
 Maintainer: Mike Jiang <wjiang2@fhcrc.org>
 Description: Uses the HIV.db and pepStat packages respectively to obtain annotation and intensity data on desired proteins, etc. and allows their display via GenomeGraphs
